@@ -1,5 +1,8 @@
 # devops-QA
-devops工程体系下的QA
+
+devops工程体系下的QA？
+
+** devops、敏捷 ** 2020 QA应该做什么？持续集成似乎只是开发、运维的事情？测试能做什么？
 
 ## 1：Jenkinsfile
 
