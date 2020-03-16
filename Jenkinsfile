@@ -1,4 +1,5 @@
 //测试环境部署jenkins 实现开发-测试-运维一体化，践行devops工程化理念
+//下面所有的ip 路径都可以提取为全局的变量
 pipeline{
 	
 	agent {
@@ -13,9 +14,9 @@ pipeline{
 		stage("获取Jenkins源码"){
 
 			steps{
-				echo '准备从github上克隆jenkins源码，由于clone比较慢，所有放弃这个步骤'
+				echo '准备从github上克隆jenkins源码，由于clone比较慢，所有放弃这个步骤，我们直接下载到本地的'
 				//从github上拉取代码
-				//git credentialsId: '84631f16-4000-4591-b342-068979628e', url: 'https://github.com/AnndyTsai/jenkins.git'
+				git credentialsId: '84631f16-4000-4591-b342-068979628e', url: 'https://github.com/AnndyTsai/jenkins.git'
 			}
 
 		}
