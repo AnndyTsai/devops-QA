@@ -4,6 +4,8 @@ devops工程体系下的QA？
 
 ** devops、敏捷 ** 2020 QA应该做什么？持续集成似乎只是开发、运维的事情？测试能做什么？
 
+* 对于测试环境，我想大致的流程应该是这样的吧！
+
 ![ext1](https://github.com/AnndyTsai/devops-QA/blob/master/Pic/devops流程.png "QA与devops的整合-让敏捷更敏捷")
 
 ## 1：Jenkinsfile
