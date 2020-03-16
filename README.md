@@ -4,6 +4,8 @@ devops工程体系下的QA？
 
 ** devops、敏捷 ** 2020 QA应该做什么？持续集成似乎只是开发、运维的事情？测试能做什么？
 
+![ext1](https://github.com/AnndyTsai/devops-QA/blob/master/Pic/devops流程.png "QA与devops的整合-让敏捷更敏捷")
+
 ## 1：Jenkinsfile
 
 * Jenkinsfile是一个比较基础的测试环境部署服务器的脚本文件，为什么是测试环境部署的脚本文件不用于生产环境呢？主要原因还是一般生产部署会将building好的安装包push到ftp服务器，最后远端服务器从ftp获取最新building的安装包进行安装部署
